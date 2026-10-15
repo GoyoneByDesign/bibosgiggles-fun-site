@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "build": 1,
+  "timezone": "America/New_York",
+  "preparedAt": "2026-10-15T13:49:51.669Z",
+  "channel": "website",
+  "changes": [
+    "Added visible version and update history access.",
+    "Introduced version 1.0.0/build1 as the first tracked website release; earlier versions remain unknown."
+  ],
+  "validation": "Original game scripts and embedded artwork match the prior source after line-ending normalization; inline JavaScript parses. Desktop/mobile history navigation passes; gameplay logic was not changed or exhaustively re-tested."
+}
