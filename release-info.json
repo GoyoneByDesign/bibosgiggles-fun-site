@@ -1,13 +1,12 @@
 {
   "schema": 1,
-  "version": "1.0.0",
-  "build": 1,
+  "version": "1.0.1",
+  "build": 2,
   "timezone": "America/New_York",
-  "preparedAt": "2026-10-15T13:49:51.669Z",
+  "preparedAt": "2026-10-16T11:32:36Z",
   "channel": "website",
   "changes": [
-    "Added visible version and update history access.",
-    "Introduced version 1.0.0/build1 as the first tracked website release; earlier versions remain unknown."
+    "Served the exact existing embedded Home Screen logo as an external PNG for Safari."
   ],
-  "validation": "Original game scripts and embedded artwork match the prior source after line-ending normalization; inline JavaScript parses. Desktop/mobile history navigation passes; gameplay logic was not changed or exhaustively re-tested."
+  "validation": "Exact decoded-byte identity, 180px PNG and unchanged game scripts verified; no physical iOS device test."
 }

@@ -1,3 +1,7 @@
+# October 16, 2026 - Safari icon
+
+2026-10-16T11:32:36Z. Version 1.0.1/build2. Extracted the exact existing 180px embedded Apple icon to apple-touch-icon.png, using a normal relative URL. Game scripts and other embedded artwork unchanged. Exact bytes and static metadata verified. Live publication checked separately; no physical iOS test.
+
 # Project handoff
 
 ## October 15, 2026 - versioned history and readiness follow-up
