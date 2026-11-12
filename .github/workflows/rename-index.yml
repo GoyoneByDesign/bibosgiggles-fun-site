@@ -1,0 +1,18 @@
+name: Rename WebP build to index.html
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace index.html with WebP build
+        run: |
+          git config user.name "GoyoneByDesign"
+          git config user.email "goyonebydesign@users.noreply.github.com"
+          git rm -q index.html
+          git mv bibo-s-giggles-fun-site-webp.html index.html
+          git commit -m "Unlock Papa Bubble and Mama Bubble (Ep 40 live)"
+          git push origin HEAD:main
